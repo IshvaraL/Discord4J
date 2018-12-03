@@ -142,7 +142,7 @@ public class DiscordUtils {
 	/**
 	 * Pattern for Discord's valid channel names.
 	 */
-	public static final Pattern CHANNEL_NAME_PATTERN = Pattern.compile("^[aA-zZ0-9-_\/\|\: ]{2,100}$");
+	public static final Pattern CHANNEL_NAME_PATTERN = Pattern.compile("^[aA-zZ0-9-_\\/\\|\\: ]{2,100}$");
 
 	/**
 	 * Gets a snowflake from a unix timestamp.
